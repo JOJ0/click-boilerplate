@@ -1,5 +1,7 @@
 import click
 
+from cli_app.config import valid_conf
+
 
 @click.command()
 @click.argument('name', nargs=1)
